@@ -3,13 +3,15 @@ import { TipSelectContainer } from '../containers/TipSelectContainer';
 
 import { MenuItemsContainer } from '../containers/MenuItemsContainer';
 // import { MenuItems } from './MenuItems';
-import { NewItemForm } from './NewItemForm';
+import { NewItemFormContainer } from '../containers/NewItemFormContainer';
+// import { NewItemForm } from './NewItemForm';
 import { Summary } from './Summary';
 
 const Calculator = () => {
   return (
     <Card>
-      <NewItemForm />
+      <NewItemFormContainer />
+      {/*<NewItemForm />*/}
       <MenuItemsContainer />
       {/*<MenuItems items={items} />*/}
       <TipSelectContainer />
